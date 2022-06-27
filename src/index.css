@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+  --color-fire-opal: #ef6461;
+  --color-sunray: #e4b363;
+  --color-platinum: #e8e9eb;
+  --color-platinum-400: #ebecee;
+  --color-alabaster: #e0dfd5;
+  --color-onyx: #313638;
+  --color-rich-black-fogra-29: #011627;
+  --color-baby-powder: #fdfffc;
+  --color-tiffany-blue: #2ec4b6;
+  --color-rose-madder: #e71d36;
+  --color-orange-peel: #ff9f1c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  color: var(--color-rich-black-fogra-29);
+  background-color: var(--color-platinum-400);
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 1.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
